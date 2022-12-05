@@ -2,13 +2,11 @@
 .env
 
 #ignore db
-recetasapi/db.sqlite3
+recetasapi/.db.sqlite3
 
 #ignore other things
-recetasapi/recetas/migrations
+recetasapi/recetas/.migrations
 
 # Byte-compiled / optimized / DLL files
-recetasapi/recetas/__pycache__/
-*.py[cod]
-recetasapi/recetasapi/__pycache__/
-*.py[cod]
+recetasapi/recetas/.__pycache__
+recetasapi/recetasapi/.__pycache__
